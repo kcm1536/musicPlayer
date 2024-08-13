@@ -1,0 +1,22 @@
+body {
+  height: 100dvh;
+  width: 100dvw;
+  margin: 0;
+  padding: 0;;
+}
+
+.container {
+  background-color: black;
+  width: 100dvw;
+  height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+div,
+p {
+  font-family: Arial;
+  color: white;
+  cursor: default;
+}

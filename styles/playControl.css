@@ -1,0 +1,80 @@
+.play-control-menu {
+  background-color: black;
+  width: 100dvw;
+  height: 12dvh;
+  display: flex;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: purple;
+}
+
+/* left hand section with image and song title/artist */
+.current-song-info-container {
+  background-color: black;
+  height: 12dvh;
+  width: 25dvw;
+  display: flex;
+
+}
+
+.current-song-photo-container {
+  background-color: black;
+  height: 12dvh;
+  width: 8dvw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.current-song-photo-container img {
+  height: 10dvh;
+}
+
+.current-song-text-container {
+  background-color: black;
+  height: 12dvh;
+  width: 17dvw;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  row-gap: 1dvh;
+  padding-left: 3px;;
+}
+
+.current-song-text-container div {
+  width: 17dvw;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* middle section with play button */
+.play-button-container {
+  background-color: black;
+  width: 50dvw;
+  height: 12dvh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.play-button-container img {
+  height: 5dvh;
+  cursor: pointer;
+}
+
+/* right section with loop and shuffle buttons */
+.playback-controls-container {
+  background-color: black;
+  width: 25dvw;
+  height: 12dvh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.playback-controls-container img {
+  height: 5dvh;
+  cursor: pointer;
+}
