@@ -1,0 +1,143 @@
+.queue-menu {
+  background-color: black;
+  width: 100vw;
+  height: 80vh;
+  display: flex;
+  flex-direction: row;
+}
+
+/* library section on the left */
+.library-container {
+  background-color: black;
+  height: 80vh;
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+}
+
+/* container for the header of the library section to swap between songs and albums */
+.library-header-container {
+  background-color: black;
+  height: 8vh;
+  width: 50vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+/* buttons in the header */
+.all-songs-header,
+.all-albums-header {
+  background-color: black;
+  width: 2vw;
+  height: 2vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.library-header-container img {
+  width: 2vw;
+  height: 2vw;
+}
+
+/* container for the actual library section which has the songs */
+.library {
+  width: 50vw;
+  height: 72vh;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.library::-webkit-scrollbar {
+  display: none;
+}
+
+/* queue section on the right */
+.queue-container {
+  background-color: black;
+  height: 100vh;
+  width: 50vw;
+}
+
+.queue-header-container {
+  background-color: black;
+  height: 8vh;
+  width: 50vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.queue-header-container img {
+  width: 3vw;
+}
+
+.queue {
+  width: 50vw;
+  height: 72vh;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.queue::-webkit-scrollbar {
+  display: none;
+}
+
+/* song item for the library and queue */
+.song-item {
+  background-color: black;
+  width: 50vw;
+  height: 8vh;
+  display: flex;
+  align-items: center;
+}
+
+.song-item-artwork{
+  background-color: black;
+  height: 8vh;
+  width: 12vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.song-item-artwork img {
+  width: 7vh;
+}
+
+.song-item-title {
+  background-color: black;
+  height: 8vh;
+  width: 77vh;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.song-item-add {
+  background-color: black;
+  height: 8vh;
+  width: 12vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.5em;
+  color: white;
+  cursor: pointer;
+}
+
+.song-item-add:hover {
+  background-color: rgb(15, 15, 15);
+}
+

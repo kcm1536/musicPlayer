@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/general.css" >
+  <link rel="stylesheet" href="styles/pageSelection.css" >
+  <link rel="stylesheet" href="styles/albumSelection.css" >
+  <link rel="stylesheet" href="styles/lyricsView.css" >
+  <link rel="stylesheet" href="styles/playControl.css" >
+  <title>Music Player</title>
+</head>
+<body>
+
+  <div class="container">
+
+    <div class="page-selection-menu">
+      <div class="home-page-button">
+        <img src="icons/home.png" onclick="window.location.href='index.html'" >
+      </div>
+      <div class="lyric-page-button">
+        <img src="icons/lyrics.png" onclick="window.location.href='lyrics.html'">
+      </div>
+      <div class="queue-page-button">
+        <img src="icons/queue.png" onclick="window.location.href='queue.html'" >
+      </div>
+    </div>
+
+    <div class="lyrics-view">
+      <div class="previous-two-lyric">Fall in love again and again</div>
+      <div class="previous-one-lyric">Winding roads, doing manual drive</div>
+      <div class="current-lyric">Early nights in white sheets with lace curtains</div>
+      <div class="next-one-lyric">Capri in the distance</div>
+      <div class="next-two-lyric">In a place that can make you change</div>
+    </div>
+
+    <div class="play-control-menu">
+
+      <!-- left hand section with image and song title/artist -->
+      <div class="current-song-info-container">
+        <div class="current-song-photo-container">
+          <img src="albumCovers/brat.png">
+        </div>
+        <div class="current-song-text-container">
+          <div>Everything is Romantic</div>
+          <div>Charli xcx</div>
+        </div>
+      </div>
+
+      <!-- middle section with play button -->
+      <div class="play-button-container">
+        <img src="icons/Play.png">
+      </div>
+
+      <!-- right section with loop and shuffle buttons -->
+      <div class="playback-controls-container">
+        <img src="icons/Repeat.png">
+        <img src="icons/Shuffle.png">
+      </div>
+    </div>
+  </div>
+</body>
+</html>
